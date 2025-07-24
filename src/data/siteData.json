@@ -1,0 +1,42 @@
+{
+  "siteDetails": {
+    "title": "Crispy Div",
+    "url": "https://crispydiv.com/",
+    "author": {
+      "name": "Sean Davis",
+      "url": "https://seanchdavis.com/"
+    },
+    "copyrightSignifier": "Copyright ©",
+    "copyrightText": "All Rights Reserved."
+  },
+  "siteHeader": {
+    "title": "Welcome to Crispy Div",
+    "subtitle": "A modular web development hub by Sean Davis."
+  },
+  "modules": {
+    "sectionHeader": {
+      "title": "Modules In Focus",
+      "subtitle": "Currently developing websites using the following technologies:"
+    },
+    "technologies": [
+      {
+        "name": "React",
+        "crispyDivUrl": "https://seanchdavis.com/",
+        "technologyUrl": "https://react.dev/",
+        "description": "React is a JavaScript library for building user interfaces, particularly single-page applications. It allows developers to create reusable UI components and manage state efficiently. React is a Crispy Div favorite, in use for many projects to include this site and Sean's personal site."
+      },
+      {
+        "name": "PageMotor",
+        "crispyDivUrl": "https://pm.crispydiv.com/",
+        "technologyUrl": "https://pagemotor.com/",
+        "description": "PageMotor, a modular PHP framework built by Chris Pearson, is designed for rapid development of high-performance web pages. Built on OOP architecture, it enables reusable components, precise asset control, and seamless content editing without reliance on page builders."
+      },
+      {
+        "name": "WordPress",
+        "crispyDivUrl": "https://wp.crispydiv.com/",
+        "technologyUrl": "https://wordpress.org/",
+        "description": "WordPress is the legacy CMS powering much of the web. While it carries weight from years of plugins, patches, and page builders, it still holds its weight in content-driven workflows and client-friendly site management. It remains useful for rapid deployment."
+      }
+    ]
+  }
+}
