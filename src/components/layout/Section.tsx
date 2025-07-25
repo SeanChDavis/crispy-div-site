@@ -5,12 +5,14 @@ export default function Section({
                                         sectionHeaderTitle,
                                         sectionHeaderSubtitle,
                                         sectionStyle,
+                                        sectionAnchor,
                                         customClasses,
                                         children
                                     }: {
     sectionHeaderTitle?: string,
     sectionHeaderSubtitle?: string,
     sectionStyle?: "light" | "gray" | "dark",
+    sectionAnchor?: string,
     customClasses?: string,
     children: React.ReactNode
 }) {
@@ -25,7 +27,10 @@ export default function Section({
     }
 
     return (
-        <section className={`${sectionClasses} ${customClasses}`}>
+        <section
+            {...(sectionAnchor ? { id: sectionAnchor } : {})}
+            className={`${sectionClasses} ${customClasses}`}
+        >
             <div className="max-w-xl lg:max-w-5xl mx-auto px-4 py-12 md:py-24">
                 <SectionHeader
                     title={sectionHeaderTitle}

@@ -33,6 +33,7 @@ function App() {
                 sectionHeaderTitle={d.contactSection.sectionHeader['title']}
                 sectionHeaderSubtitle={d.contactSection.sectionHeader['subtitle']}
                 sectionStyle={'dark'}
+                sectionAnchor={'contact'}
             >
                 <ContactForm/>
             </Section>

@@ -21,7 +21,7 @@ export default function AboutDescription() {
                 <p className="mb-4">For those looking for assistance with a web development project, this site is the
                     starting point. Reach out to discuss details.</p>
                 <LinkButton
-                    url="#"
+                    url="#contact"
                     text="Contact Crispy Div"
                     style="outline"
                     customClasses="mt-2.5"
