@@ -1,9 +1,10 @@
 import d from '../../data/siteData.json';
 import { FaExternalLinkAlt } from "react-icons/fa";
+import LinkButton from "./LinkButton.tsx";
 
 export default function Module({name, crispyDivUrl, technologyUrl, description}: {
-    name?: string,
-    crispyDivUrl?: string,
+    name: string,
+    crispyDivUrl: string,
     technologyUrl?: string,
     description?: string
 }) {
@@ -28,7 +29,12 @@ export default function Module({name, crispyDivUrl, technologyUrl, description}:
                 <p>{description}</p>
             </div>
             <div className="bg-white text-sm px-4 pb-6 sm:pb-8 pt-3 sm:pt-3.5 sm:px-6">
-                <a href={crispyDivUrl} className="inline-block bg-zinc-950 border-2 border-zinc-950 text-white text-[13px] font-semibold rounded-full px-4 py-2 hover:bg-white hover:text-zinc-950" target="_blank">See {d.siteDetails['title']} use {name}</a>
+                <LinkButton
+                    url={crispyDivUrl}
+                    text={`See ${d.siteDetails['title']} use ${name}`}
+                    target={"_blank"}
+                    rel="noopener noreferrer"
+                />
             </div>
         </div>
     )
