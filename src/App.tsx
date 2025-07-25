@@ -5,7 +5,7 @@ import ModulesGrid from "./components/elements/ModulesGrid.tsx";
 import Section from "./components/layout/Section.tsx";
 import ContactForm from "./components/elements/ContactForm.tsx";
 import AboutDescription from "./components/elements/AboutDescription.tsx";
-import TextSizeToggle from "./components/ui/TextSizeToggle.tsx";
+import SettingsPanel from "./components/ui/SettingsPanel.tsx";
 
 function App() {
 
@@ -13,7 +13,7 @@ function App() {
         <Wrapper>
 
             {/* Test Size Toggle */}
-            <TextSizeToggle/>
+            <SettingsPanel />
 
             {/* Modules Section */}
             <Section

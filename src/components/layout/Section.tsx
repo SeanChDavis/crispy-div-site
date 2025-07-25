@@ -19,9 +19,9 @@ export default function Section({
     let sectionClasses = "";
 
     if (!sectionStyle || sectionStyle === "light") {
-        sectionClasses = "bg-white text-zinc-950";
+        sectionClasses = "bg-white text-zinc-950 dark:bg-zinc-900 dark:text-zinc-300";
     } else if (sectionStyle === "gray") {
-        sectionClasses = "bg-zinc-100 text-zinc-950";
+        sectionClasses = "bg-zinc-100 text-zinc-950 dark:bg-zinc-800 dark:text-zinc-300";
     } else if (sectionStyle === "dark") {
         sectionClasses = "bg-zinc-950 text-zinc-400";
     }

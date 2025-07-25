@@ -25,10 +25,10 @@ export default function Module({name, crispyDivUrl, technologyUrl, description}:
                     <h3 className="text-xl font-bold">{name}</h3>
                 )}
             </div>
-            <div className="bg-white flex-grow-1 text-md px-4 sm:px-6 pt-4 sm:pt-6 pb-2 leading-6.5">
+            <div className="bg-white dark:bg-zinc-800 dark:text-zinc-300 flex-grow-1 text-md px-4 sm:px-6 pt-4 sm:pt-6 pb-2 leading-6.5">
                 <p>{description}</p>
             </div>
-            <div className="bg-white text-sm px-4 pb-6 sm:pb-8 pt-3 sm:pt-3.5 sm:px-6">
+            <div className="bg-white dark:bg-zinc-800 dark:text-zinc-300 text-sm px-4 pb-6 sm:pb-8 pt-3 sm:pt-3.5 sm:px-6">
                 <LinkButton
                     url={crispyDivUrl}
                     text={`See ${d.siteDetails['title']} use ${name}`}

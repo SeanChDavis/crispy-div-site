@@ -10,9 +10,9 @@ export default function LinkButton({text, url, style, customClasses, target, rel
     let styleClasses = "";
 
     if (!style || style === "fill") {
-        styleClasses = "bg-zinc-950 text-white hover:bg-transparent hover:text-zinc-950";
+        styleClasses = "bg-zinc-950 text-white dark:text-zinc-300 hover:bg-transparent hover:text-zinc-950 dark:hover:text-zinc-300";
     } else if (style === "outline") {
-        styleClasses = "bg-transparent text-zinc-950 hover:bg-zinc-950 hover:text-white";
+        styleClasses = "bg-transparent text-zinc-950 dark:text-zinc-300 hover:bg-zinc-950 hover:text-white dark:hover:text-zinc-300";
     }
 
     return (

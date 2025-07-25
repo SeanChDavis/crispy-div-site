@@ -1,6 +1,8 @@
 @import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,700;1,700&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme {
   --font-display: 'Red Hat Display', sans-serif;
   --font-body: 'Red Hat Text', sans-serif;

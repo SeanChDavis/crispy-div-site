@@ -20,7 +20,7 @@ export default function TextSizeToggle() {
     };
 
     return (
-        <button className="absolute top-3 right-3 z-40" onClick={toggleTextSize}>
+        <button onClick={toggleTextSize}>
             <MdFormatSize
                 title={"Toggle Text Size"}
                 className={`text-md md:text-lg text-zinc-500 hover:text-zinc-400 cursor-pointer`}
