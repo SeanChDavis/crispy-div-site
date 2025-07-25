@@ -13,7 +13,7 @@
     "title": "Welcome to Crispy Div",
     "subtitle": "A modular web development hub by Sean Davis."
   },
-  "modules": {
+  "modulesSection": {
     "sectionHeader": {
       "title": "Modules In Focus",
       "subtitle": "Currently developing websites using the following technologies:"
@@ -38,5 +38,21 @@
         "description": "WordPress is the legacy CMS powering much of the web. While it carries weight from years of plugins, patches, and page builders, it still holds its weight in content-driven workflows and client-friendly site management. It remains useful for rapid deployment."
       }
     ]
+  },
+  "aboutSection": {
+    "sectionHeader": {
+      "title": "What's a Crispy Div?",
+      "subtitle": "A brief introduction and invitation to collaborate."
+    },
+    "content": [
+      "Crispy Div is a web development hub created by Sean Davis, focusing on modular and efficient web technologies. The site serves as a showcase for various web development projects and technologies, including React, PageMotor, and WordPress.",
+      "The goal of Crispy Div is to provide resources, insights, and examples of modern web development practices, while also serving as a portfolio for Sean's work."
+    ]
+  },
+  "contactSection": {
+    "sectionHeader": {
+      "title": "Let's Communicate",
+      "subtitle": "Get in touch with Sean for collaborations or inquiries."
+    }
   }
 }

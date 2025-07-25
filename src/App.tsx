@@ -1,14 +1,44 @@
 import './styles.css';
-import Layout from "./components/layout/Layout.tsx";
-import ModulesSection from "./components/sections/ModulesSection.tsx";
+import d from "./data/siteData.json";
+import Wrapper from "./components/layout/Wrapper.tsx";
+import ModulesGrid from "./components/elements/ModulesGrid.tsx";
+import Section from "./components/layout/Section.tsx";
+import ContactForm from "./components/elements/ContactForm.tsx";
+import AboutDescription from "./components/elements/AboutDescription.tsx";
 
 function App() {
 
-  return (
-      <Layout>
-          <ModulesSection />
-      </Layout>
-  )
+    return (
+        <Wrapper>
+
+            {/* Modules Section */}
+            <Section
+                sectionHeaderTitle={d.modulesSection.sectionHeader['title']}
+                sectionHeaderSubtitle={d.modulesSection.sectionHeader['subtitle']}
+            >
+                <ModulesGrid/>
+            </Section>
+
+            {/* About Section */}
+            <Section
+                sectionHeaderTitle={d.aboutSection.sectionHeader['title']}
+                sectionHeaderSubtitle={d.aboutSection.sectionHeader['subtitle']}
+                sectionStyle={'gray'}
+            >
+                <AboutDescription />
+            </Section>
+
+            {/* Contact Section */}
+            <Section
+                sectionHeaderTitle={d.contactSection.sectionHeader['title']}
+                sectionHeaderSubtitle={d.contactSection.sectionHeader['subtitle']}
+                sectionStyle={'dark'}
+            >
+                <ContactForm/>
+            </Section>
+
+        </Wrapper>
+    )
 }
 
 export default App
