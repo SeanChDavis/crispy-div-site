@@ -3,7 +3,7 @@ import Module from "./Module.tsx";
 
 export default function ModulesGrid() {
     return (
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 xl:gap-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-12">
             {(d.modulesSection['technologies'] as Array<{
                 name: string;
                 crispyDivUrl: string;

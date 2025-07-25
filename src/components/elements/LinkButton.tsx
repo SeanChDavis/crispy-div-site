@@ -6,7 +6,7 @@ export default function LinkButton({text, url, style, customClasses, target, rel
     target?: string;
     rel?: string;
 }) {
-    const buttonClasses = "inline-block border-2 border-zinc-950 text-[13px] font-semibold rounded-full px-4 py-2 cursor-pointer";
+    const buttonClasses = "inline-block border-2 border-zinc-950 text-sm font-semibold rounded-full px-4 py-2 cursor-pointer";
     let styleClasses = "";
 
     if (!style || style === "fill") {

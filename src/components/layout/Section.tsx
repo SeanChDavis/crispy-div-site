@@ -29,7 +29,7 @@ export default function Section({
     return (
         <section
             {...(sectionAnchor ? { id: sectionAnchor } : {})}
-            className={`${sectionClasses} ${customClasses}`}
+            className={`relative ${sectionClasses} ${customClasses}`}
         >
             <div className="max-w-xl lg:max-w-5xl mx-auto px-4 py-12 md:py-24">
                 <SectionHeader
