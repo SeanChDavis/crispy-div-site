@@ -20,6 +20,12 @@
     },
     "technologies": [
       {
+        "name": "Astro",
+        "crispyDivUrl": "https://astro.crispydiv.com/",
+        "technologyUrl": "https://astro.build/",
+        "description": "Astro is a modern static site generator that allows developers to build fast, content-focused websites. It supports multiple frameworks and optimizes for performance by shipping less JavaScript. Astro is perfect for informational sites with fairly static content."
+      },
+      {
         "name": "React",
         "crispyDivUrl": "https://seanchdavis.com/",
         "technologyUrl": "https://react.dev/",
