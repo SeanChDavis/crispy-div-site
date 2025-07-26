@@ -17,7 +17,7 @@ export default function ContactForm() {
                 />
                 <ValidationError prefix="Name" field="name" errors={state.errors}/>
             </div>
-            <div className="mb-4 lg:mb-5">
+            <div className="mb-6 lg:mb-5">
                 <label className="block font-semibold" htmlFor="email">Email Address</label>
                 <input
                     className="w-full outline-zinc-400 border-2 border-zinc-600 rounded-md py-2 px-2.5"
@@ -28,7 +28,7 @@ export default function ContactForm() {
                 />
                 <ValidationError prefix="Email" field="email" errors={state.errors}/>
             </div>
-            <div className="mb-6 lg:mb-5">
+            <div className="mb-4 lg:mb-5">
                 <label className="block font-semibold" htmlFor="message">Message</label>
                 <textarea
                     className="w-full outline-zinc-400 border-2 border-zinc-600 rounded-md py-2 px-2.5"
