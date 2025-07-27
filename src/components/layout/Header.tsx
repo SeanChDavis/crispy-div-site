@@ -10,7 +10,9 @@ export default function Header() {
                     <p className="mt-2">{d.siteHeader.subtitle}</p>
                 </div>
                 <p className="relative text-white inline-block align-bottom">
-                    <LogoMark />
+                    <LogoMark
+                        additionalClasses="w-9 h-9 mb-[-14px] relative"
+                    />
                 </p>
             </div>
         </header>

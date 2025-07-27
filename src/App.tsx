@@ -6,6 +6,7 @@ import Section from "./components/layout/Section.tsx";
 import ContactForm from "./components/elements/ContactForm.tsx";
 import AboutDescription from "./components/elements/AboutDescription.tsx";
 import SettingsPanel from "./components/ui/SettingsPanel.tsx";
+import LogoMark from "./components/branding/LogoMark.tsx";
 
 function App() {
 
@@ -13,7 +14,7 @@ function App() {
         <Wrapper>
 
             {/* Test Size Toggle */}
-            <SettingsPanel />
+            <SettingsPanel/>
 
             {/* Modules Section */}
             <Section
@@ -29,8 +30,16 @@ function App() {
                 sectionHeaderSubtitle={d.aboutSection.sectionHeader['subtitle']}
                 sectionStyle={'gray'}
             >
-                <AboutDescription />
+                <AboutDescription/>
             </Section>
+
+            <section className="relative bg-zinc-950 text-zinc-400">
+                <div className="max-w-xl lg:max-w-5xl mx-auto">
+                    <p className="text-white align-top text-center">
+                        <LogoMark additionalClasses="w-9 h-9 mt-[-14px] ml-[-18px] left-[50%] absolute" />
+                    </p>
+                </div>
+            </section>
 
             {/* Contact Section */}
             <Section

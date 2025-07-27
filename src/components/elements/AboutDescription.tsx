@@ -22,7 +22,7 @@ export default function AboutDescription() {
                     starting point. Reach out to discuss details.</p>
                 <LinkButton
                     url="#contact"
-                    text="Contact Crispy Div"
+                    text="Get In Touch with Crispy Div"
                     style="outline"
                     customClasses="mt-2.5"
                 />

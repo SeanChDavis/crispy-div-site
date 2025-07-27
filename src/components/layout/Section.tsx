@@ -31,7 +31,7 @@ export default function Section({
             {...(sectionAnchor ? { id: sectionAnchor } : {})}
             className={`relative ${sectionClasses} ${customClasses}`}
         >
-            <div className="max-w-xl lg:max-w-5xl mx-auto px-4 py-12 md:py-24">
+            <div className="max-w-xl lg:max-w-5xl mx-auto px-4 py-12 md:py-24 lg:py-28">
                 <SectionHeader
                     title={sectionHeaderTitle}
                     subtitle={sectionHeaderSubtitle}
