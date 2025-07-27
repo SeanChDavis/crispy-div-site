@@ -11,7 +11,7 @@ export default function SectionHeader({title, subtitle, sectionStyle}:{
 
     return (
         <div className="mb-10 md:mb-14 text-center">
-            <h1 className={`${titleClasses} dark:text-white text-xl md:text-2xl font-semibold`}>{title}</h1>
+            <h1 className={`${titleClasses} dark:text-white text-xl md:text-2xl lg:text-3xl font-semibold`}>{title}</h1>
             <p className="mt-2">{subtitle}</p>
         </div>
     )
