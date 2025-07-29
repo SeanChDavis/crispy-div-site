@@ -81,7 +81,7 @@ export default function ContactForm() {
             <button
                 type="submit"
                 disabled={state.submitting}
-                className="inline-block border-2 text-sm font-semibold rounded-full px-4 py-2 cursor-pointer tracking-tight border-white bg-white hover:bg-transparent text-zinc-950 hover:text-white transition-all duration-300 ease-in-out active:scale-[.97] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-amber-600  focus:ring-offset-zinc-950 dark:focus:ring-offset-white"
+                className="inline-block border-2 text-sm font-semibold rounded-full px-4 py-2 cursor-pointer tracking-wide border-white bg-white hover:bg-transparent text-zinc-950 hover:text-white transition-all duration-300 ease-in-out active:scale-[.97] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-amber-600  focus:ring-offset-zinc-950"
             >
                 Send Message
             </button>

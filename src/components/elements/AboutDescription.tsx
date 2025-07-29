@@ -20,7 +20,6 @@ export default function AboutDescription() {
                     url="#contact"
                     text="Get In Touch with Sean"
                     customClasses="mt-2.5"
-                    fill={false}
                 />
             </div>
         </div>

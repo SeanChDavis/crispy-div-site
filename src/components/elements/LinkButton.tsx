@@ -18,7 +18,7 @@ export default function LinkButton({text, url, style = "dark", fill = true, cust
             combinedClasses += " bg-transparent text-zinc-950 dark:text-white hover:bg-zinc-950 hover:text-white dark:hover:bg-white dark:hover:text-zinc-950";
         }
     } else if (style === "light") {
-        baseClasses += " border-white focus:ring-offset-zinc-950 dark:focus:ring-offset-white";
+        baseClasses += " border-white focus:ring-offset-zinc-950 dark:focus:ring-offset-zinc-950";
         if (fill) {
             combinedClasses += " bg-white hover:bg-transparent text-zinc-950 hover:text-white";
         } else {
