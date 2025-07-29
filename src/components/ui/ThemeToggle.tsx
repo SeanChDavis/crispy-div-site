@@ -35,7 +35,7 @@ export default function ThemeToggle() {
         <button onClick={toggleTheme}>
             <MdBrightnessMedium
                 title={"Toggle Dark Mode"}
-                className="text-md md:text-lg text-zinc-500 hover:text-zinc-400 cursor-pointer"
+                className="text-md md:text-lg text-zinc-500 hover:text-zinc-400 cursor-pointer transition-colors duration-300 ease-in-out"
             />
         </button>
     );

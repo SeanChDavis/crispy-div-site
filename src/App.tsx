@@ -5,7 +5,6 @@ import TechnologiesGrid from "./components/elements/TechnologiesGrid.tsx";
 import Section from "./components/layout/sections/Section.tsx";
 import ContactForm from "./components/elements/ContactForm.tsx";
 import AboutDescription from "./components/elements/AboutDescription.tsx";
-import SettingsPanel from "./components/ui/SettingsPanel.tsx";
 import LogoMarkDivider from "./components/layout/LogoMarkDivider.tsx";
 
 function App() {
@@ -13,9 +12,7 @@ function App() {
     return (
         <Wrapper>
 
-            <SettingsPanel/>
-
-            {/* Modules Section */}
+            {/* Technology Section */}
             <Section
                 title={d.technologiesSection.header["title"]}
                 subtitle={d.technologiesSection.header["subtitle"]}

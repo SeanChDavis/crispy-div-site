@@ -19,7 +19,7 @@ export default function Technology({name, crispyDivUrl, technologyUrl, descripti
                         rel="noopener noreferrer"
                     >
                         <h3 className="text-xl font-bold mr-4">{name}</h3>
-                        <FaExternalLinkAlt className={"group-hover:text-zinc-300 text-zinc-700"} />
+                        <FaExternalLinkAlt className={"group-hover:text-zinc-500 text-zinc-700 transition-colors duration-150 ease-in-out"} />
                     </a>
                 ) : (
                     <h3 className="text-xl font-bold">{name}</h3>
