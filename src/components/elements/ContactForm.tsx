@@ -42,7 +42,7 @@ export default function ContactForm() {
             <button
                 type="submit"
                 disabled={state.submitting}
-                className="inline-block outline-zinc-400 border-2 border-zinc-950 text-sm font-semibold rounded-full px-4 py-2 cursor-pointer bg-white text-zinc-950 hover:bg-zinc-200"
+                className="inline-block border-2 text-sm font-semibold rounded-full px-4 py-2 cursor-pointer tracking-tight border-white bg-white hover:bg-transparent text-zinc-950 hover:text-white"
             >
                 Send Message
             </button>

@@ -1,16 +1,16 @@
 import d from "../../data/siteData.json";
-import Module from "./Module.tsx";
+import Technology from "./Technology.tsx";
 
-export default function ModulesGrid() {
+export default function TechnologiesGrid() {
     return (
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-12">
-            {(d.modulesSection['technologies'] as Array<{
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-12 lg:mt-16">
+            {(d.technologiesSection['technologies'] as Array<{
                 name: string;
                 crispyDivUrl: string;
                 technologyUrl: string;
                 description: string
             }>).map((module, index) => (
-                <Module
+                <Technology
                     key={index}
                     name={module['name']}
                     crispyDivUrl={module['crispyDivUrl']}

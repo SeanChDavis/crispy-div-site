@@ -2,7 +2,7 @@ import d from '../../data/siteData.json';
 import { FaExternalLinkAlt } from "react-icons/fa";
 import LinkButton from "./LinkButton.tsx";
 
-export default function Module({name, crispyDivUrl, technologyUrl, description}: {
+export default function Technology({name, crispyDivUrl, technologyUrl, description}: {
     name: string,
     crispyDivUrl: string,
     technologyUrl?: string,
@@ -32,9 +32,9 @@ export default function Module({name, crispyDivUrl, technologyUrl, description}:
                 <LinkButton
                     url={crispyDivUrl}
                     text={`See ${d.siteDetails['title']} use ${name}`}
-                    style="fill"
+                    style="dark"
                     target={"_blank"}
-                    rel="noopener noreferrer"
+                    refer={true}
                 />
             </div>
         </div>

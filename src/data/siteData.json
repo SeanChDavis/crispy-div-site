@@ -4,61 +4,83 @@
     "url": "https://crispydiv.com/",
     "author": {
       "name": "Sean Davis",
-      "url": "https://seanchdavis.com/"
+      "url": "https://seanchdavis.com/",
+      "introText": "A service by"
     },
     "copyrightSignifier": "Copyright ©",
     "copyrightText": "All Rights Reserved."
   },
   "siteHeader": {
-    "title": "Welcome to Crispy Div",
-    "subtitle": "A modular web development hub by Sean Davis."
+    "title": "Welcome to Crispy Div.",
+    "subtitle": "I enjoy building websites using various technologies. Sometimes it's about technical specs. Sometimes it's about fun. I'd love to build your website.",
+    "ctaText": "Let's Work Together"
   },
-  "modulesSection": {
-    "sectionHeader": {
-      "title": "Modules In Focus",
-      "subtitle": "Currently developing websites using the following technologies:"
+  "technologiesSection": {
+    "header": {
+      "title": "I have these technologies in focus.",
+      "subtitle": "I work with a variety of web technologies, each with its own strengths and use cases. Here are some of my recent favorites and demos of my implementations."
     },
     "technologies": [
       {
         "name": "Astro",
         "crispyDivUrl": "https://astro.crispydiv.com/",
         "technologyUrl": "https://astro.build/",
-        "description": "Astro is a modern static site generator that allows developers to build fast, content-focused websites. It supports multiple frameworks and optimizes for performance by shipping less JavaScript. Astro is perfect for informational sites with fairly static content."
+        "description": "Astro is a modern static website generator that allows developers to build fast, content-focused websites. It supports multiple frameworks and optimizes for performance by shipping less JavaScript. Astro is perfect for informational websites with fairly static content."
       },
       {
         "name": "React",
         "crispyDivUrl": "https://seanchdavis.com/",
         "technologyUrl": "https://react.dev/",
-        "description": "React is a JavaScript library for building user interfaces, particularly single-page applications. It allows developers to create reusable UI components and manage state efficiently. React is a Crispy Div favorite, in use for many projects to include this site and Sean's personal site."
+        "description": "React is a JavaScript library for building user interfaces, particularly single-page applications. It allows developers to create reusable UI components and manage state efficiently. React is a Crispy Div favorite, in use for many projects to include this website."
       },
       {
         "name": "PageMotor",
         "crispyDivUrl": "https://pm.crispydiv.com/",
         "technologyUrl": "https://pagemotor.com/",
-        "description": "PageMotor, a modular PHP framework built by Chris Pearson, is designed for rapid development of high-performance web pages. Built on OOP architecture, it enables reusable components, precise asset control, and seamless content editing without reliance on page builders."
+        "description": "PageMotor, a modular PHP framework built by Chris Pearson, is designed for rapid development of high-performance web pages. Built on OOP architecture, it enables reusable components, precise asset control, and content editing without reliance on page builders."
       },
       {
         "name": "WordPress",
         "crispyDivUrl": "https://wp.crispydiv.com/",
         "technologyUrl": "https://wordpress.org/",
-        "description": "WordPress is the legacy CMS powering much of the web. While it carries weight from years of plugins, patches, and page builders, it still holds its weight in content-driven workflows and client-friendly site management. It remains useful for rapid deployment."
+        "description": "WordPress is the legacy CMS powering much of the web. While it carries weight from years of plugins, patches, and page builders, it still holds its weight in content-driven workflows and client-friendly website management. It remains useful for rapid deployment."
+      }
+    ]
+  },
+  "servicesSection": {
+    "header": {
+      "title": "What can Crispy Div do for you?",
+      "subtitle": "Crispy Div isn't just a playground. It's a launchpad. If you need a fast, modern, and maintainable web presence, let's talk. Here's how I can help:"
+    },
+    "services": [
+      {
+        "name": "Custom Website Development",
+        "description": "Tailored websites built with platforms like React, Astro, WordPress or your preference — fast, clean, responsive, and optimized."
+      },
+      {
+        "name": "Component Library Design",
+        "description": "Need a reusable, themed UI system? I'll design a modular library to fit your team's stack and design."
+      },
+      {
+        "name": "CMS Conversions",
+        "description": "Move from clunky builders to streamlined, modern frameworks — faster websites, easier maintenance."
+      },
+      {
+        "name": "Support and Maintenance",
+        "description": "Ongoing support and maintenance for existing websites, ensuring they remain fast, secure, and up-to-date."
       }
     ]
   },
   "aboutSection": {
-    "sectionHeader": {
-      "title": "What's a Crispy Div?",
-      "subtitle": "A brief introduction and invitation to collaborate."
-    },
-    "content": [
-      "Crispy Div is a web development hub created by Sean Davis, focusing on modular and efficient web technologies. The site serves as a showcase for various web development projects and technologies, including React, PageMotor, and WordPress.",
-      "The goal of Crispy Div is to provide resources, insights, and examples of modern web development practices, while also serving as a portfolio for Sean's work."
-    ]
+    "header": {
+      "title": "But what's a Crispy Div?",
+      "subtitle": "A brief explanation, and a humble invitation to collaborate."
+    }
   },
   "contactSection": {
-    "sectionHeader": {
-      "title": "Let's Communicate",
-      "subtitle": "Get in touch with Sean for collaborations or inquiries."
+    "header": {
+      "title": "We can build something great.",
+      "subtitle": "Have an idea, a website that needs upgrading, or just want to work with a developer who builds with intention? Send me a message and I'll send you a thoughtful reply."
     }
   }
 }
