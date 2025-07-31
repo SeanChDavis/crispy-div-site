@@ -30,6 +30,8 @@ function App() {
                 <AboutDescription/>
             </Section>
 
+            <div id="contact" className="bg-zinc-100 py-4"></div>
+
             <LogoMarkDivider shiftDirection={"down"}/>
 
             {/* Contact Section */}
@@ -37,7 +39,6 @@ function App() {
                 title={d.contactSection.header["title"]}
                 subtitle={d.contactSection.header["subtitle"]}
                 theme={"dark"}
-                anchor={"contact"}
             >
                 <ContactForm/>
             </Section>

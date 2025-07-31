@@ -9,7 +9,7 @@ export default function Header() {
             <SettingsPanel/>
             <div className="max-w-2xl mx-auto px-4 pt-12 sm:pt-16 md:pt-24 mb-10 md:mb-14 text-center">
                 <div className="max-w-2xl mx-auto text-center mb-14 md:mb-20">
-                    <h1 className="text-2xl md:text-3xl text-white font-semibold mb-2">{d.siteHeader.title}</h1>
+                    <h1 className="text-2xl md:text-3xl lg:text-4xl text-white font-semibold mb-2">{d.siteHeader.title}</h1>
                     <p className="text-sm text-zinc-400 mb-6">
                         {d.siteDetails.author.introText} <a href={d.siteDetails.author.url} className="underline hover:no-underline" target="_blank">{d.siteDetails.author.name}</a>
                     </p>

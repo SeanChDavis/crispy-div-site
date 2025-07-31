@@ -1,4 +1,4 @@
-export default function SectionHeader({title, subtitle, theme, align, jumbo}:{
+export default function SectionHeader({title, subtitle, theme, align, jumbo}: {
     title?: string,
     subtitle?: string,
     theme?: string,
@@ -26,8 +26,12 @@ export default function SectionHeader({title, subtitle, theme, align, jumbo}:{
 
     return (
         <div className={`max-w-2xl ${alignmentBase} ${alignment} mb-10`}>
-            <h1 className={`${textSize} ${titleClasses} dark:text-white font-semibold mb-2`}>{title}</h1>
-            <p className="md:text-lg">{subtitle}</p>
+            {title && (
+                <h1 className={`${textSize} ${titleClasses} dark:text-white font-semibold mb-2`}>{title}</h1>
+            )}
+            {subtitle &&
+                <p className="md:text-lg">{subtitle}</p>
+            }
         </div>
     )
 }
