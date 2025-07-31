@@ -30,7 +30,7 @@ function App() {
                 <AboutDescription/>
             </Section>
 
-            <div id="contact" className="bg-zinc-100 py-4"></div>
+            <div id="contact" className="bg-zinc-100 dark:bg-zinc-800 py-4"></div>
 
             <LogoMarkDivider shiftDirection={"down"}/>
 
