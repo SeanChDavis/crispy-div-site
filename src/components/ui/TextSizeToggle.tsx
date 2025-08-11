@@ -1,7 +1,7 @@
 import {useEffect, useState} from "react";
 import {MdFormatSize} from "react-icons/md";
 
-export default function TextSizeToggle() {
+export default function TextSizeToggle({classes}: { classes?: string }) {
     const [size, setSize] = useState("base");
 
     useEffect(() => {
@@ -21,10 +21,7 @@ export default function TextSizeToggle() {
 
     return (
         <button onClick={toggleTextSize}>
-            <MdFormatSize
-                title={"Toggle Text Size"}
-                className={`text-md md:text-lg text-zinc-500 hover:text-zinc-400 cursor-pointer transition-colors duration-300 ease-in-out`}
-            />
+            <MdFormatSize title={"Toggle Text Size"} className={classes}/>
         </button>
     );
 }

@@ -1,7 +1,7 @@
 import {useEffect} from "react";
 import {MdBrightnessMedium} from "react-icons/md";
 
-export default function ThemeToggle() {
+export default function ThemeToggle({classes}: { classes?: string }) {
     // const [theme, setTheme] = useState("system");
     const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
 
@@ -33,10 +33,7 @@ export default function ThemeToggle() {
 
     return (
         <button onClick={toggleTheme}>
-            <MdBrightnessMedium
-                title={"Toggle Dark Mode"}
-                className="text-md md:text-lg text-zinc-500 hover:text-zinc-400 cursor-pointer transition-colors duration-300 ease-in-out"
-            />
+            <MdBrightnessMedium title={"Toggle Dark Mode"} className={classes}/>
         </button>
     );
 }
