@@ -22,28 +22,28 @@
     },
     "technologies": [
       {
-        "name": "Astro",
-        "crispyDivUrl": "https://astro.crispydiv.com/",
-        "technologyUrl": "https://astro.build/",
-        "description": "Astro is a modern static website generator that allows developers to build fast, content-focused websites. It supports multiple frameworks and optimizes for performance by shipping less JavaScript. Astro is perfect for informational websites with fairly static content."
-      },
-      {
         "name": "React",
         "crispyDivUrl": "https://seanchdavis.com/",
         "technologyUrl": "https://react.dev/",
         "description": "React is a JavaScript library for building user interfaces, particularly single-page applications. It allows developers to create reusable UI components and manage state efficiently. React is a Crispy Div favorite, in use for many projects to include this website."
       },
       {
-        "name": "PageMotor",
-        "crispyDivUrl": "https://pm.crispydiv.com/",
-        "technologyUrl": "https://pagemotor.com/",
-        "description": "PageMotor, a modular PHP framework built by Chris Pearson, is designed for rapid development of high-performance web pages. Built on OOP architecture, it enables reusable components, precise asset control, and content editing without reliance on page builders."
-      },
-      {
         "name": "WordPress",
         "crispyDivUrl": "https://wp.crispydiv.com/",
         "technologyUrl": "https://wordpress.org/",
         "description": "WordPress is the legacy CMS powering much of the web. While it carries weight from years of plugins, patches, and page builders, it still holds its weight in content-driven workflows and client-friendly website management. It remains useful for rapid deployment."
+      },
+      {
+        "name": "Astro",
+        "crispyDivUrl": "https://astro.crispydiv.com/",
+        "technologyUrl": "https://astro.build/",
+        "description": "Astro is a modern static website generator that allows developers to build fast, content-focused websites. It supports multiple frameworks and optimizes for performance by shipping less JavaScript. Astro is perfect for informational websites with fairly static content."
+      },
+      {
+        "name": "PageMotor",
+        "crispyDivUrl": "https://pm.crispydiv.com/",
+        "technologyUrl": "https://pagemotor.com/",
+        "description": "PageMotor, a modular PHP framework built by Chris Pearson, is designed for rapid development of high-performance web pages. Built on OOP architecture, it enables reusable components, precise asset control, and content editing without reliance on page builders."
       }
     ]
   },
